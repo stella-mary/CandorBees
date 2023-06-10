@@ -1,0 +1,133 @@
+.header7 {
+    background: black;
+    padding-top: 7rem;
+    margin-top: 100px;
+    height: 70rem;
+}
+
+.header_content_home_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+.header_content_home {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 1rem;
+    height: 100vh;
+    width: 100%;
+}
+
+.header_content_home_para {
+    border: '1px dotted red';
+    padding: 10px;
+}
+
+.header_content_home h1{
+    font-size: 55px;
+    display: flex;
+    width: 65%;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header_content_home p{
+    font-size: 25px;
+    width: 35%;
+    line-height: 1.5em;
+    color: white;
+    font-family: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header_button1{
+    border: 2px dotted;
+    padding: 30px;
+    width: 800px;
+    border-radius: 10px;
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header_button3{
+    border: 2px solid white;
+    padding: 30px;
+    width: 800px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header_button2{
+    width: 800px;
+    border: 2px solid;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+p {
+    color: blue;
+    font-size: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.header_para_content {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 400;    
+}
+
+.header_para_content_head {
+    font-size: 50px;
+    color: #f4a645;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;    
+}
+
+.header_para_content_head:hover {
+    text-decoration: underline;
+    color: #f4a645;
+    cursor: pointer;    
+}
+
+.header_para_content_link {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 400;    
+}
+
+.header_para_content_link:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;    
+}
+
+.space {
+    margin-left: 2em;
+}
+
+

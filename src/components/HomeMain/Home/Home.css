@@ -1,0 +1,45 @@
+.header {
+    background: black;
+    padding-top: 10rem;
+    height: 45rem;
+}
+
+.header_content_home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.header_content_home h1{
+  
+    font-size: 80px;
+    display: flex;
+    width: 65%;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header_content_home p{
+    font-size: 25px;
+    width: 35%;
+    line-height: 1.5em;
+    color: white;
+    font-family: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* p {
+    color: blue;
+    font-size: 10px;
+} */
+
+
+
+
