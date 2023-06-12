@@ -23,7 +23,7 @@ const Home3 = () => {
                             >
                                 <TextField
                                     fullWidth
-                                    label="Full Name"
+                                    label="Your name"
                                     variant='standard'
                                     InputLabelProps={{ style: { color: 'white', fontSize: '25px', fontFamily: 'AmericanTypewriter' } }}
                                     InputProps={{
@@ -62,20 +62,27 @@ const Home3 = () => {
                             <Box
                                 sx={{
                                     width: 800,
-                                    maxWidth: '100%',
-                                    marginBottom: '40px',
+
+                                    // maxWidth: '100%',
+                                    marginBottom: '20px',
                                     marginTop: '20px',
                                 }}
                             >
-                                <textarea
+                                <TextField
                                     fullWidth
-                                    label="How can we help"
+                                    label="How can we help?"
                                     variant='standard'
                                     InputLabelProps={{ style: { color: 'white', fontSize: '25px', fontFamily: 'AmericanTypewriter' } }}
                                     InputProps={{
                                         style: {
                                             border: 'none',
+                                            borderTop: '2px solid white',
+                                            borderLeft: '2px solid white',
+                                            borderRight: '2px solid white',
                                             borderBottom: '2px solid white',
+                                            borderRadius: '10px',
+                                            height: '200px',
+                                            paddingLeft: '20px',
                                             fontSize: '25px'
                                         },
                                     }}
@@ -85,7 +92,7 @@ const Home3 = () => {
 
                             <div className='header_button1'>
                                 Drop useful files here or upload them from your computer<br /><br />
-                                We accept files up to 15 MB
+                                <small>We accept files up to 15 MB</small>
                             </div>
                             <div className='header_button2'>SUBMIT</div>
                         </div>

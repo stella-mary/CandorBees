@@ -1,29 +1,32 @@
 .header4_Home2A {
     background: #f4a645;
     padding-top: 1rem;
-    height: 140rem;
+    height: 160rem;
 }
 
 .header_content2_Home {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   gap: '20px'
+   gap: 40px;
 }
 
 .image_home{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 20px;
+    /* height: 50%; */
     margin-bottom: 20px;
 }
 
 .header_content2_Home2 h3 {
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .header_content2_Home2 {
     display: flex;
     flex-direction:column;
+    gap: 10px;
 }
 
 
@@ -56,15 +59,10 @@
     text-align: left;
 }
 
-.highlighted-text {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-}
 
 .header5_Home2 {
     background: black;
-    height: 30rem;
+    height: 40rem;
     margin-top: 50px;
     padding: 40px;
     border-radius: 20px;
@@ -85,6 +83,7 @@
 .header_content5 h2 {
     font-size: 30px;
     font-weight: 700;
+    width: 800px;
     margin-top: 20px;
     margin-bottom: 30px;
 }

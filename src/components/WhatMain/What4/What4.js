@@ -11,7 +11,7 @@ const What4 = () => {
         <header className='header7'>
             <div className='container'>
                 <div className='row'>
-                    <h1>LET’S MAKE IT TOGETHER</h1>
+                    <h1><a id="touch"></a>LET’S MAKE IT TOGETHER</h1>
                     <div className='header_content_home'>
                         <div className='header_content_home_form'>
                             <Box

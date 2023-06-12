@@ -28,7 +28,7 @@ const Navbar = () => {
                         <ul className='navbar_right'>
                             <li><a href="/what">WHAT WE DO</a></li>
                             <li><a href="/project">PROJECTS</a></li>
-                            <li><a href="/touch">GET IN TOUCH</a></li>
+                            <li><a href="#touch">GET IN TOUCH</a></li>
                         </ul>
                     ) : (
                         ""

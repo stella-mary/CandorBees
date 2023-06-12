@@ -31,7 +31,7 @@ const Home1 = () => {
                         <div className='header_section_image'>
                             <img src="./image/project1.png" alt="" className='image' />
                         </div>
-                        <div className='header_section'>
+                        <div className='header_section_home1'>
                             <h2 onClick={navigateToProject3}>Production Scheduler</h2>
                             <h1>JOB MANAGEMENT PLATFORM</h1>
                             <div className='header_para'>Country: India</div>
@@ -49,8 +49,8 @@ const Home1 = () => {
                         <div className='header_section_image'>
                             <img src="./image/project2.png" alt="" className='image' />
                         </div>
-                        <div className='header_section'>
-                            <h2>GiftJunction</h2>
+                        <div className='header_section_home1'>
+                            <h2>Gift Junction</h2>
                             <h1>A GIFT MANAGEMENT SOFTWARE</h1>
                             <div className='header_para'>Country: United States</div>
                             <div className='header_para'>Technologies : React, Node.js, PostgreSQL</div>
